@@ -1,0 +1,217 @@
+﻿@{
+    ViewData["Title"] = "Home - SRC Travel";
+}
+
+<link rel="stylesheet" href="~/lib/css/flaticon.css" />
+<link rel="stylesheet" href="~/lib/css/line-awesome.min.css" />
+
+<!-- Banner Section Starts Here -->
+<section class="banner-section" style="
+       background: url('/images/banner-bg.png') repeat-x bottom;">
+    <div class="container">
+        <div class="banner-wrapper">
+            <div class="banner-content">
+                <h1 class="title">Welcome To SRC TRAVELS</h1>
+                <a asp-controller="Home" asp-action="About" class="cmn--btn">About Us</a>
+            </div>
+           
+        </div>
+    </div>
+    <div class="shape">
+        <img src="~/images/66868879268741720092793.png" alt="bg" />
+    </div>
+</section>
+
+<!-- Working Process Section Starts Here -->
+<section class="working-process padding-top padding-bottom">
+    <div class="container">
+        <div class="row g-4 gy-md-5 justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="working-process-item" style="height: 300px !important;">
+                    <div class="thumb-wrapper">
+                        <span>01</span>
+                        <div class="thumb">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Enquire About Bus Availability</h4>
+                        <p>
+                            Provide the starting place, destination, date, and time to check for available buses. Employees can assist with this at the booking counter.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="working-process-item" style="height: 300px !important;">
+                    <div class="thumb-wrapper">
+                        <span>02</span>
+                        <div class="thumb">
+                            <i class="fa-solid fa-ticket-simple"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Select and Book Tickets</h4>
+                        <p>
+                            Choose the bus based on availability, enter customer details like name, age, and number of seats. The employee will book the tickets and assign seat numbers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="working-process-item" style="height: 300px !important;">
+                    <div class="thumb-wrapper">
+                        <span>03</span>
+                        <div class="thumb">
+                            <i class="fa-solid fa-money-bill-1-wave"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Make Payment</h4>
+                        <p>
+                            The total cost will be calculated based on bus type, distance, and customer age. Once the payment is made, the ticket can be printed, and a copy is saved in the system.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Working Process Section Ends Here 
+<!-- Our Amenities Section Starts Here -->
+<section class="amenities-section padding-bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="section-header text-center">
+                    <h2 class="title" style="color: #0e9e4d;">Our Amenities</h2>
+                    <p>
+                        Have a look at our popular reasons why you should choose your bus.
+                        Just choose a Bus and get a ticket for your great journey!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="amenities-item text-center">
+                    <div class="thumb">
+                        <i class="fas fa-wifi" style="font-size: 40px;"></i>
+                    </div>
+                    <h6 class="title">Wifi</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="amenities-item text-center">
+                    <div class="thumb">
+                        <i class="fa-solid fa-bed" style="font-size: 40px;"></i>
+                    </div>
+                    <h6 class="title">Pillow</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="amenities-item text-center">
+                    <div class="thumb">
+                        <i class="fa-solid fa-prescription-bottle" style="font-size: 40px;"></i>
+                    </div>
+                    <h6 class="title">Water Bottle</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="amenities-item text-center">
+                    <div class="thumb">
+                        <i class="fas fa-wine-glass-alt" style="font-size: 40px;"></i>
+                    </div>
+                    <h6 class="title">Soft Drinks</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Our Amenities Section Ends Here -->
+
+<style>
+    .cancellation-policy-section h2, .fare-section h2 {
+        color: #0e9e4d;
+    }
+
+    .fare-section h4{
+        color: #777;
+    }
+
+    .cancellation-policy-section li, .fare-section li {
+        padding: 0px;
+    }
+
+    .fare-section h4{
+        margin: 20px 0;
+        color: #0e9e4d;
+    }
+
+    .cancellation-policy-section ul li, .fare-section ul li {
+
+        list-style:disc;
+        margin: 5px 0;
+        color: #777;
+        padding: 5px;
+    }
+
+        .cancellation-policy-section ul li strong, .fare-section ul li strong{
+            color: #333;
+            font-weight:bold;
+        }
+
+    .cancellation-policy-section ul li::marker, .fare-section ul li::marker {
+        color: #0e9e4d;
+    }
+</style>
+<!-- Fare of Ticket Section Starts Here -->
+<section class="fare-section padding-top padding-bottom" id="fare-policy">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="title">Fare of Ticket</h2>
+            <p>The ticket fare depends on the type of bus, the distance, and the customer's age.</p>
+        </div>
+        <div class="fare-details">
+            <h4>Bus Type</h4>
+            <ul>
+                <li style="list-style:none;">Express < Luxury < Volvo (Non A/C) < Volvo (A/C)</li>
+            </ul>
+
+            <h4>Age-Based Discounts</h4>
+            <ul>
+                <li>Children under 5 years: Free of charge</li>
+                <li>Children aged 5-12: Half fare</li>
+                <li>Adults aged 12-50: Full fare</li>
+                <li>Seniors above 50 years: 30% discount</li>
+            </ul>
+
+            <h4>Distance</h4>
+            <ul>
+                <li style="list-style:none;">The fare also depends on the distance between the starting point and the destination, calculated automatically by the system.</li>
+            </ul>
+          
+        </div>
+    </div>
+</section>
+<!-- Fare of Ticket Section Ends Here -->
+<!-- Cancellation Policy Section Starts Here -->
+<section class="cancellation-policy-section padding-top padding-bottom" id="cancellation-policy">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="title">Cancellation Policy</h2>
+            <p>Our cancellation policy ensures a fair refund process for our customers.</p>
+        </div>
+        <div class="cancellation-details">
+            <ul>
+                <li><strong>Cancellation more than 2 days before the journey:</strong> Full refund.</li>
+                <li><strong>Cancellation 1 day before the journey:</strong> 15% of the total amount is deducted, and 85% is refunded.</li>
+                <li><strong>Cancellation on the day of the journey:</strong> 30% of the total amount is deducted, and 70% is refunded.</li>
+            </ul>
+
+        
+        </div>
+    </div>
+</section>
+<!-- Cancellation Policy Section Ends Here -->

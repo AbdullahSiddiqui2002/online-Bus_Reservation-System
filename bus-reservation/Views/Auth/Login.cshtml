@@ -1,0 +1,137 @@
+﻿@model bus_reservation.Models.Employee
+
+@{
+    
+    Layout = null;
+    var msg = ViewBag.msg;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script>
+        // Disable browser back button after logout
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+
+        window.onpopstate = function () {
+            window.location.href = '/Auth/Login'; // Ensure to redirect to login if back button is pressed
+        };
+    </script>
+    <link href="~/admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="~/admin/css/style.css" rel="stylesheet">
+
+    <style>
+        
+
+        .account-wrapper {
+            min-height: 100vh;
+            background: #fff;
+            padding-left: 120px;
+            padding-right: 120px;
+            width: 100%;
+            position: relative;
+            max-width: 720px;
+            margin-left: auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            justify-content: center;
+        }
+
+    </style>
+   
+</head>
+<body>
+
+
+    <section class="account-section bg_img"
+             style="background: url(https://script.viserlab.com/viserbus/assets/images/frontend/auth/66869002329471720094722.jpg) bottom left;">
+        <span class="spark"></span>
+        <span class="spark2"></span>
+        <div class="account-wrapper sign-up bg-white rounded h-100 p-4">
+            <div class="account-form-wrapper">
+                <div class="account-header">
+                    <div class="logo mb-4">
+                        <a asp-action="Index" asp-controller="Home">
+                            <img src="~/images/logo.png"
+                                 alt="Logo" style="width:100%; height:100% !important;" />
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                <form asp-action="Login">
+                    @if (msg != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>@msg</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                        <div class="col-sm-12 col-xl-12 mt-4 mb-2">
+                    <div class="form-group">
+                        <label for="Email" class="required">Email</label>
+                        <input id="Email" name="Email" type="email" class="form-control"
+                               placeholder="Enter Your Email" required />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                        </div>
+                            <div class="col-sm-12 col-xl-12 mt-4 mb-2">
+                            <div class="form-group input-group">
+                                <label asp-for="Password" class="control-label"></label>
+                                <div class="input-group">
+                                    <input type="password" asp-for="Password" class="form-control" id="password" required placeholder="Enter Your Password" />
+
+                                    <button type="button" class="btn btn-success" id="togglePassword">
+                                        <i class="fas fa-eye" id="eyeIcon"></i>
+                                    </button>
+                                </div>
+
+                                <span id="passwordError" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                                <div class="col-sm-12 col-xl-12 mt-4 mb-2">
+                    <div class="form-group">
+                        <button class="btn btn-outline-success w-100" type="submit">Sign In</button>
+                    </div>
+                        </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('togglePassword').addEventListener('click', function () {
+            const passwordField = document.getElementById('password');
+            const eyeIcon = document.getElementById('eyeIcon');
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                eyeIcon.classList.remove('fa-eye');
+                eyeIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordField.type = "password";
+                eyeIcon.classList.remove('fa-eye-slash');
+                eyeIcon.classList.add('fa-eye');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
+

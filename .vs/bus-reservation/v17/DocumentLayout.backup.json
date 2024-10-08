@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|h:\\e-project (online bus reservation system)\\source code\\online bus reservation system\\bus-reservation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|solutionrelative:bus-reservation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|h:\\e-project (online bus reservation system)\\source code\\online bus reservation system\\bus-reservation\\controllers\\employeedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|solutionrelative:bus-reservation\\controllers\\employeedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|h:\\e-project (online bus reservation system)\\source code\\online bus reservation system\\bus-reservation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|solutionrelative:bus-reservation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|h:\\e-project (online bus reservation system)\\source code\\online bus reservation system\\bus-reservation\\models\\busreservationsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|solutionrelative:bus-reservation\\models\\busreservationsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|h:\\e-project (online bus reservation system)\\source code\\online bus reservation system\\bus-reservation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|solutionrelative:bus-reservation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|h:\\e-project (online bus reservation system)\\source code\\online bus reservation system\\bus-reservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01872B4-7525-4BA6-9ECC-0E7ABF767A09}|bus-reservation\\bus-reservation.csproj|solutionrelative:bus-reservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "bus-reservation\\Controllers\\EmployeeController.cs",
+              "ToolTip": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "bus-reservation\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:11:48.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDashboardController.cs",
+              "DocumentMoniker": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Controllers\\EmployeeDashboardController.cs",
+              "RelativeDocumentMoniker": "bus-reservation\\Controllers\\EmployeeDashboardController.cs",
+              "ToolTip": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Controllers\\EmployeeDashboardController.cs",
+              "RelativeToolTip": "bus-reservation\\Controllers\\EmployeeDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T21:41:28.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusReservationSystemContext.cs",
+              "DocumentMoniker": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Models\\BusReservationSystemContext.cs",
+              "RelativeDocumentMoniker": "bus-reservation\\Models\\BusReservationSystemContext.cs",
+              "ToolTip": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Models\\BusReservationSystemContext.cs",
+              "RelativeToolTip": "bus-reservation\\Models\\BusReservationSystemContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wCUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T21:33:04.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\appsettings.json",
+              "RelativeDocumentMoniker": "bus-reservation\\appsettings.json",
+              "ToolTip": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\appsettings.json",
+              "RelativeToolTip": "bus-reservation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-06T21:29:56.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "bus-reservation\\appsettings.Development.json",
+              "ToolTip": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\appsettings.Development.json",
+              "RelativeToolTip": "bus-reservation\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-06T21:28:25.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Program.cs",
+              "RelativeDocumentMoniker": "bus-reservation\\Program.cs",
+              "ToolTip": "H:\\E-Project (Online Bus Reservation System)\\Source Code\\Online Bus Reservation System\\bus-reservation\\Program.cs",
+              "RelativeToolTip": "bus-reservation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T21:28:22.403Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 382,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
